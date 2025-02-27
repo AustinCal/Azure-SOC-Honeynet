@@ -8,7 +8,10 @@ I'm setting up a resource group in Azure and creating a virtual network within i
 ![image](https://github.com/user-attachments/assets/b03b32c4-7f95-460f-a93b-d47a2be5048a)
 
 # Analyzing Log Analytics and Creating Workspace
-I'm setting up a log repository to collect attack data by forwarding logs from the honeypot. First, I'll create a Log Analytics Workspace (LAW) and set up Microsoft Sentinel as the SIEM, connecting it to the workspace. Next, I'll install and configure Windows Security Event Manager, then set up Windows Security Events via AMA. After that, I'll create a Data Collection Rule (DCR) to ensure logs are properly forwarded to the LAW workspace. Once everything is configured, I'll verify connectivity with a ping test, then leave the system running for 30 minutes to capture attack data.
+I'm setting up a log repository to collect attack data by forwarding logs from the honeypot. First, I'll create a Log Analytics Workspace (LAW) and set up Microsoft Sentinel as the SIEM, connecting it to the workspace. Next, I'll install and configure Windows Security Event Manager, then set up Windows Security Events via AMA. After that, I'll create a Data Collection Rule (DCR) to ensure logs are properly forwarded to the LAW workspace. Once everything is configured, I'll verify connectivity with a ping test, then leave the system running for 30 minutes to capture attack data
+
+![image](https://github.com/user-attachments/assets/82f04875-3e25-4665-b9d7-a45d2bf70858)
+
 # Querying Data
 ![image](https://github.com/user-attachments/assets/dc42cbd8-4df8-46ef-9891-8cdd5839d947)
 
