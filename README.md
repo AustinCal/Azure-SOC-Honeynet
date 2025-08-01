@@ -1,5 +1,5 @@
 # Updated Documentation August 9th (Written: August 1, 2025) 
-
+Source: Josh Madakor - Guided the initial development
 # Building a SOC + Honeynet in Azure (Live Traffic)
 I'm setting up a honeypot in Azure, intentionally exposing it to the public to attract attacks. I'll configure log forwarding so failed login attempts are sent to a local repository, which will then be connected to a SIEM. From there, I'll query the SIEM to generate an attack map, visualizing where live attacks are coming from in real time.
 
